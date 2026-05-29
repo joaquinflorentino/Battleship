@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Battleship.Pages.MainMenu"
+             BackgroundImageSource="wallpaper.png">
+    <Grid>
+        <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="20">
+            <Label Text="Battleship" FontSize="65" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black" FontAttributes="Bold" FontFamily="A"/>
+            <Button Text="Play" FontSize="25" HorizontalOptions="Center" VerticalOptions="Start" Clicked="PlayButton_Click" BackgroundColor="Black" TextColor="White" CornerRadius="5"/>
+            <Button Text="View Match History" FontSize="25" HorizontalOptions="Center" VerticalOptions="Start" Clicked="ViewMatchHistory" BackgroundColor="Black" TextColor="White" CornerRadius="5" />
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>

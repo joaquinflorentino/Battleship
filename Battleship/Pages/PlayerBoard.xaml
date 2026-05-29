@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Battleship.Pages.PlayerBoard"
+             Title="P1 Board"
+             BackgroundImageSource="board_background.png">
+
+    <Grid>
+        <Grid x:Name="TopLeftBoard" VerticalOptions="Start" HorizontalOptions="Start"></Grid>
+        <Frame x:Name="HeaderFrame" BackgroundColor="#0C6CBA" Padding="10" CornerRadius="0" WidthRequest="450" HeightRequest="40" Margin="35, 10, 0, 500">
+            <Label x:Name="HeaderLabel" FontSize="13" Text="Pick a ship and click the grid to set its start and end position" HorizontalTextAlignment="Center" LineBreakMode="NoWrap" FontAttributes="Bold"/>
+        </Frame>
+
+        <Grid x:Name="BoardGrid" VerticalOptions="Center" HorizontalOptions="Center">
+        </Grid>
+        <ListView x:Name="ShipsListView" BackgroundColor="#99111111" Margin="755, 50, 0, 0" WidthRequest="200" HeightRequest="415" ItemSelected="OnShipSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Image Source="{Binding ImageSource}" WidthRequest="60" HeightRequest="60"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+
+
+</ContentPage>
