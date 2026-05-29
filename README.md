@@ -1,6 +1,6 @@
 ## Battleship
 
-A visual Battleship game created using C# and .NET MAUI (2023)
+A visual Battleship game created using C# and .NET MAUI (2024)
 
 ## Setup
 
