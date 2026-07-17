@@ -8,10 +8,10 @@ Download and extract the ZIP and open 'Battleship.sln' file on Visual Studio wit
 
 ## Screenshots
 
-<img width="800" src="https://github.com/user-attachments/assets/aaad03f8-fe3c-4e75-9aba-11090247ad5d" />
+<img width="800" src="image1.png" />
 <br/>
 <br/>
-<img width="800" src="https://github.com/user-attachments/assets/74909427-37bb-4712-9a39-a326f6a752e8" />
+<img width="800" src="image2.png" />
 <br/>
 <br/>
-<img width="800" src="https://github.com/user-attachments/assets/e356a472-34fa-4205-ad63-746b893d0b98" />
+<img width="800" src="image3.png" />
