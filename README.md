@@ -8,10 +8,10 @@ Download and extract the ZIP and open 'Battleship.sln' file on Visual Studio wit
 
 ## Screenshots
 
-<img width="800" src="image1.png" />
+<img width="800" src="Battleship\Resources\Images\image1.png" />
 <br/>
 <br/>
-<img width="800" src="image2.png" />
+<img width="800" src="Battleship\Resources\Images\image2.png" />
 <br/>
 <br/>
-<img width="800" src="image3.png" />
+<img width="800" src="Battleship\Resources\Images\image3.png" />
